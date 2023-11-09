@@ -1,8 +1,5 @@
 package test;
 
-import model.Console;
-import model.Jeu;
-
 public class Test {
 
 	public static void main(String[] args) {
@@ -16,6 +13,10 @@ public class Test {
 		Jeu j3 = new Jeu("Animal crossing", c3);
 		Jeu j4 = new Jeu("assassin's creed", c2);
 		Jeu j5 = new Jeu("fifa", c2);
+
+        Client client1 = new Client("Saquet", "Frodon");
+        Client client2 = new Client("Gamegie", "Sam");
+        Boutique boutique = new Boutique("1", "Cul-de-Sac", "Hobbiteville", "La maison de Bilbo", "Adresse de la Boutique");
 	}
 
 }
