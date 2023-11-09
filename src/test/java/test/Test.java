@@ -1,5 +1,11 @@
 package test;
 
+import model.Adresse;
+import model.Boutique;
+import model.Client;
+import model.Console;
+import model.Jeu;
+
 public class Test {
 
 	public static void main(String[] args) {
@@ -16,7 +22,8 @@ public class Test {
 
         Client client1 = new Client("Saquet", "Frodon");
         Client client2 = new Client("Gamegie", "Sam");
-        Boutique boutique = new Boutique("1", "Cul-de-Sac", "Hobbiteville", "La maison de Bilbo", "Adresse de la Boutique");
+        Adresse adresse1 = new Adresse("1", "Cul-de-Sac", "Hobbiteville");
+        Boutique boutique1 = new Boutique("La maison de Bilbo", adresse1);
 	}
 
 }
